@@ -19,19 +19,19 @@ public class GroupProj{
       width = inpwidth;
     }
     
-    public setLength (double newLength){
+    public static setLength (double newLength){
       length = newLength;
     }
     
-    public getSideLenth{
+    public static getSideLenth{
       return length;
     }
     
-    public setWidth (double newWidth){
+    public static setWidth (double newWidth){
       width = newWidth;
     }
     
-    public getWidth {
+    public static getWidth {
       return width;
     }
    
