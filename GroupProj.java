@@ -27,6 +27,14 @@ public class GroupProj{
       return length;
     }
     
+    public setWidth (double newWidth){
+      width = newWidth;
+    }
+    
+    public getWidth {
+      return width;
+    }
+   
     public static getArea{
       return length*width;
     }
