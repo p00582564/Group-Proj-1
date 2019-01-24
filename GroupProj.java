@@ -1,10 +1,9 @@
-//Cody, Tony, Themba, Carmen
-
-public class GrouProj {
+// Cody, Tony, Themba, Carmen
+public class GroupProj {
 
 	public static void main(String[] args) {
 		Box test1 = new Box();
-		// no closing instance of type is available
+		System.out.println("length is " + test1.getLength() );
 	} // end of main
 }
 
