@@ -1,47 +1,48 @@
 //Cody, Tony, Themba, Carmen
 
-public class GroupProj{
-  public static void main (String [] args){
+public class GroupProj {
+	public static void main (String [] args){
+		
+	} // end of main
+
+	public class Box{
+		private double length, width;
     
-   } //end of main
-  
-  public class Box{
-    private double length;
-    private double width;
+		Box(){
+			length = 1;
+			width = 1;
+		}
     
-    Box(){
-      length = 1;
-      width = 1;
-    }
+		Box(double inpLength, double inpWidth){
+			length = inpLength;
+			width = inpWidth;
+		}
     
-    Box(double inpLength, double inpWidth){
-      length = inpLength;
-      width = inpwidth;
-    }
+		public void setLength(double newLength){
+			length = newLength;
+		}
     
-    public static setLength (double newLength){
-      length = newLength;
-    }
+		public void setWidth (double newWidth){
+				width = newWidth;
+		}
     
-    public static getSideLenth{
-      return length;
-    }
+		public double getLength() {
+			return length;
+		}
     
-    public static setWidth (double newWidth){
-      width = newWidth;
-    }
-    
-    public static getWidth {
-      return width;
-    }
+		public double getWidth(){
+			return width;
+		}
    
-    public static getArea{
-      return length*width;
-    }
+		public double getArea(){
+			return length*width;
+		}
     
-    public static getPerimeter{
-      return 2*lenth+2*width;
-      
-  }  //end of Square
-     
+		public double getPerimeter(){
+			return 2*length+2*width;
+		}  
+    
+		
+  }//end of Box
+
 }// end
