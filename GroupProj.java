@@ -1,8 +1,9 @@
+//Cody, Tony, Themba, Carmen
+
 public class GroupProj{
   public static void main (String [] args){
-    Box nBox1 = new Box();
     
-  } //end of main
+   } //end of main
   
   public class Box{
     private double length;
@@ -34,6 +35,5 @@ public class GroupProj{
       return 2*lenth+2*width;
       
   }  //end of Square
-      
-      
+     
 }// end
