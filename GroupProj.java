@@ -1,21 +1,28 @@
 public class GroupProj{
   public static void main (String [] args){
-    Box b1 = new Box;
+    Square b1 = new Square;
     
     System.out.println("box area is" + b1.area() );
     
-  }
+  } //end of main
   
   public class Box{
-    private double sideLength;
+    private double length;
+    private double width;
     
-    public static area{
-       return sideLength*sideLength;
-    
-    public setSideLength (double length){
-      sideLength = length;
+    public setLength (double newLength){
+      length = newLength;
+    }
     
     public getSideLenth{
-      return sideLength;
-  }
-}
+      return length;
+    }
+    
+    public static getArea{
+      return length*width;
+    }  
+      
+  }  //end of Square
+      
+      
+}// end
