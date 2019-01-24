@@ -23,7 +23,7 @@ public class GroupProj {
 		}
     
 		public void setWidth (double newWidth){
-				width = newWidth;
+			width = newWidth;
 		}
     
 		public double getLength() {
