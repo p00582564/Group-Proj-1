@@ -5,3 +5,4 @@
 file with Carmen's suggested features and changes prior to cory's major revisions. - carmen
 - I updated my notification settings to receive notices for all repos 
 actions for which I have access.  -carmen
+- Delete GroupProj-sugfeats branch. -carmen
