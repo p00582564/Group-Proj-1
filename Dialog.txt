@@ -1,0 +1,18 @@
+This is a dialog to discuss matters regarding the Group-Proj-1.
+
+1/30/2019-wed
+Hello, I created this file because I can't find a feature in Github for us to place our thoughts, 
+actions, alert, activites... etc regarding the Group-Proj-1 so we can be on the same page.
+
+Here are somethings to mention...
+1) I forked this project so I can have a place to develop under my account
+2) I created a branch called GroupProj-sugfeats for my suggested features and changes to the code and project.
+3) I turned on watch for this project in the master branch and the GroupProj-sugfeats branch.
+
+4) Note: After doing the actions above, I still did not see notices in my Github dashboard for actions in my 
+GroupProj-sugfeats branch (maybe because it's not the default branch).  So I created this file for that reason. 
+I will push notices using this file from my (cplace2019/Group-Proj-1) master branch to (p00582564/Group-Proj-1)
+master branch.  You can go to the branch section on p00582564/Group-Proj-1 and select the GroupProj-sugfeats
+branch and open the GroupProj-sugfeats.java file to see my suggestions.
+  
+
