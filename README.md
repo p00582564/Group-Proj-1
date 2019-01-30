@@ -1,3 +1,5 @@
-# New README file created in Group-Proj-1's GroupProj-sugfeas branch from cplace2019.
+# README file 
 
-Uploaded GroupProj-sugfeas.java which is a copy of the original GroupProj.java file with Carmen's suggested features and changes. - carmen
+- Created branch in Group-Proj-1 cslled GroupProj-sugfeats from cplace2019. -Carken
+- Uploaded GroupProj-sugfeats.java which is a copy of the original GroupProj.java 
+file with Carmen's suggested features and changes prior to cory's major revisions. - carmen
