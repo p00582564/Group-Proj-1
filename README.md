@@ -4,4 +4,4 @@
 - Uploaded GroupProj-sugfeats.java which is a copy of the original GroupProj.java 
 file with Carmen's suggested features and changes prior to cory's major revisions. - carmen
 - I updated my notification settings to receive notices for all repos 
-actions for which I have access.  I 
+actions for which I have access.  -carmen
