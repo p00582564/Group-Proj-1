@@ -5,5 +5,3 @@
 file with Carmen's suggested features and changes prior to cory's major revisions. - carmen
 - I updated my notification settings to receive notices for all repos 
 actions for which I have access.  -carmen
-- Created a new branch called cplace2019-branch. I will delete my GroupProj-sugfeats
-branch. - carmen
