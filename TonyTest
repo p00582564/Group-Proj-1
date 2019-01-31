@@ -1,0 +1,15 @@
+import javax.swing.JOptionPane;
+
+public class test {
+	public static void main(String[] args) {
+		JOptionPane ui = new JOptionPane();
+		
+		ui.showMessageDialog(null, "This is a GUI for encapsulation");
+		
+		String dialogInput = ui.showInputDialog("what is the side Length");
+		double sideLength = Double.parseDouble(dialogInput);
+		
+		System.out.println(sideLength);
+	}
+
+}
