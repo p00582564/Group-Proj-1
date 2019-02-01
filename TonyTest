@@ -1,15 +1,48 @@
+/*i dumbed-down the code even simpler by having box becoming a square to get rid of one more variable and using that to test out 
+JOptionPane, since I am new to this */
+
 import javax.swing.JOptionPane;
 
-public class test {
+public class JOPTest {
 	public static void main(String[] args) {
-		JOptionPane ui = new JOptionPane();
+		JOptionPane.showMessageDialog(null, "This is a example of encapsulation");  //show message 
 		
-		ui.showMessageDialog(null, "This is a GUI for encapsulation");
-		
-		String dialogInput = ui.showInputDialog("what is the side Length");
-		double sideLength = Double.parseDouble(dialogInput);
-		
-		System.out.println(sideLength);
+		//JOptionsPane only takes string input, convert string to double
+		String dialogInput = JOptionPane.showInputDialog("what is the side Length");
+		double sL = Double.parseDouble(dialogInput);
+   		//creating box with the inputed side length
+		Box boxn1 = new Box(sL);
+    
+		JOptionPane.showMessageDialog(null, "you have created a box with perimeter of " + boxn1.getPerimeter() );
+		JOptionPane.showMessageDialog(null, "you have created a box with area of " + boxn1.getArea());
 	}
 
 }
+class Box {
+	private double length;
+
+	Box() {
+		length = 1;
+	}
+
+	Box(double inpLength) {
+		length = inpLength;
+	}
+
+	void setLength(double newLength) {
+		length = newLength;
+	}
+
+	double getLength() {
+		return length;
+	}
+
+	double getArea() {
+		return length * length;
+	}
+
+	double getPerimeter() {
+		return 4 * length;
+	}
+
+}// end of Box
