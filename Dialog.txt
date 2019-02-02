@@ -1,1 +1,0 @@
-I moved the dialog which I had in this file to issues.
