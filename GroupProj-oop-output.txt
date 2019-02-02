@@ -6,7 +6,7 @@
 */
 
 Group Member:  Carnen
-Last updated:     02/01/2019
+Last updated:  02/01/2019
 
 Listed below is output from a run of 
 our GroupProj-oop.java program.
