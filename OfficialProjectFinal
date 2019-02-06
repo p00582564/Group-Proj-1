@@ -1,0 +1,67 @@
+//Cody, Tony, Themba, Carmen
+//edited last 2/6/2019 3:53pm
+import java.util.*;
+
+public class GroupProj {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.println("what is the length and width of your box? ");
+		double newL = input.nextDouble();
+		double newW = input.nextDouble();
+		input.close();
+		
+		Box b1 = new Box(newL, newW);
+		
+		b1.show(); 
+		
+		System.out.println("the area is " + b1.getArea() + 
+				"\nthe perimeter is " + b1.getPerimeter() );
+		
+		
+
+	} // end of main
+} 
+
+class Box {
+	private double length, width;
+
+	Box() {
+		length = 1;
+		width = 1;
+	}
+
+	Box(double inpLength, double inpWidth) {
+		length = inpLength;
+		width = inpWidth;
+	}
+
+	void setLength(double newLength) {
+		length = newLength;
+	}
+
+	void setWidth(double newWidth) {
+		width = newWidth;
+	}
+
+	double getLength() {
+		return length;
+	}
+
+	double getWidth() {
+		return width;
+	}
+
+	double getArea() {
+		return length * width;
+	}
+
+	double getPerimeter() {
+		return 2 * length + 2 * width;
+	}
+
+	void show() {
+		System.out.println("length, width:  " + length + ", " + width + ". " );
+	}
+
+}// end of Box
