@@ -23,43 +23,81 @@ public class GroupProj {
 	} // end of main
 } 
 
+/**
+   A box has a length and a width.   Methods are provided for setting and getting length and width; computing area and perimeter; and showing the box's length and width values.
+*/
 class Box {
+        /**
+	Encapsulated data members - private length and private width instance variables.    
+	*/
 	private double length, width;
 
+        /**
+          Constructs a box with default values for length and width.
+        */
 	Box() {
 		length = 1;
 		width = 1;
 	}
 
+        /**
+          Constructs a box which takes inputs for length and width.
+        */
 	Box(double inpLength, double inpWidth) {
 		length = inpLength;
 		width = inpWidth;
-	}
-
+	
+	/**
+          Sets the length of the box.
+          @param newLength the new length 
+        */
 	void setLength(double newLength) {
 		length = newLength;
 	}
 
+        /**
+          Sets the width of the box.
+          @param newWidth the new width 
+        */
 	void setWidth(double newWidth) {
 		width = newWidth;
 	}
 
+        /**
+          Gets the length of the box.
+          @return the length 
+        */
 	double getLength() {
 		return length;
 	}
 
+        /**
+          Gets the width of the box.
+          @return the width 
+        */
 	double getWidth() {
 		return width;
 	}
-
+	
+	/**
+          Get the area of the box by computation based on its length and width.
+          @return the area of the box.
+        */
 	double getArea() {
 		return length * width;
 	}
 
+        /**
+          Get the perimeter of the box by computation based on its length and width.
+          @return the perimeter of the box.
+        */
 	double getPerimeter() {
 		return 2 * length + 2 * width;
 	}
 
+        /**
+          Show the length and width of the box.
+        */
 	void show() {
 		System.out.println("length, width:  " + length + ", " + width + ". " );
 	}
