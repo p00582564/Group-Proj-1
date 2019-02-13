@@ -1,5 +1,11 @@
-//Cody, Tony, Themba, Carmen
-//edited last 2/6/2019 3:53pm
+// Owners: Cody, Tony, Themba, Carmen
+// Last Edited: 2/6/2019 3:53pm
+
+
+// Our project was on the Concept of Encapsulation. Encapsulation is the use of methods that changes
+// the status of the main class and the way a program works.
+
+
 import java.util.*;
 
 public class GroupProj {
